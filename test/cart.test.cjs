@@ -1,0 +1,4 @@
+const {test}=require('node:test'),assert=require('node:assert/strict');
+const {normalize,change,total}=require('../src/cart.cjs');
+test('carrello persistito non attendibile: scarta dati estranei e limita quantità',()=>{assert.deepEqual(normalize({cuffie:100,zaino:-1,speaker:'2',ignoto:4}),{cuffie:20});assert.deepEqual(normalize(null),{});assert.deepEqual(normalize([]),{});});
+test('aggiunta, modifica, totale in centesimi e rimozione senza mutare lo stato',()=>{const initial={cuffie:1};const updated=change(initial,'cuffie',3);assert.deepEqual(initial,{cuffie:1});assert.equal(total(updated),26700);const mix=change(updated,'borraccia',2);assert.equal(total(mix),32500);assert.equal(total(change(mix,'cuffie',0)),5800);assert.deepEqual(change({},'inesistente',3),{});assert.equal(total({}),0);});

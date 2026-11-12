@@ -1,0 +1,3 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const files={'/':['index.html','text/html; charset=utf-8'],'/app.js':['app.js','text/javascript; charset=utf-8'],'/app.css':['app.css','text/css; charset=utf-8']};
+http.createServer((req,res)=>{const item=files[new URL(req.url,'http://localhost').pathname];if(!item){res.writeHead(404);return res.end('Pagina non trovata');}res.writeHead(200,{'Content-Type':item[1],'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'});fs.createReadStream(path.join(__dirname,'dist',item[0])).pipe(res);}).listen(Number(process.env.PORT)||3022,'127.0.0.1',()=>console.log('Negozio Federico Santorsola: http://localhost:3022'));

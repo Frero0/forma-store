@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.env*
+*.zip
+*.log
+*.key
+*.pem
+.idea/
+.vscode/
+package-lock.original.json
+.DS_Store
