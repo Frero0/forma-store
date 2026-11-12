@@ -1,0 +1,604 @@
+[
+  {
+    "id": "arc-lamp",
+    "slug": "arc-lamp",
+    "name": {
+      "en": "Arc desk lamp",
+      "it": "Lampada da tavolo Arc"
+    },
+    "description": {
+      "en": "Arc desk lamp, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Lampada da tavolo Arc, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "desk",
+    "price": 6900,
+    "currency": "EUR",
+    "image": "products/arc-lamp.svg",
+    "material": {
+      "en": "Powder-coated steel",
+      "it": "Acciaio verniciato"
+    },
+    "dimensions": "38 × 22 × 42 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "ceramic-vase",
+    "slug": "ceramic-vase",
+    "name": {
+      "en": "Still ceramic vase",
+      "it": "Vaso in ceramica Still"
+    },
+    "description": {
+      "en": "Still ceramic vase, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Vaso in ceramica Still, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "home",
+    "price": 3400,
+    "currency": "EUR",
+    "image": "products/ceramic-vase.svg",
+    "material": {
+      "en": "Glazed stoneware",
+      "it": "Grès smaltato"
+    },
+    "dimensions": "12 × 12 × 24 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "daily-tote",
+    "slug": "daily-tote",
+    "name": {
+      "en": "Daily canvas tote",
+      "it": "Borsa in tela Daily"
+    },
+    "description": {
+      "en": "Daily canvas tote, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Borsa in tela Daily, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "accessories",
+    "price": 2800,
+    "currency": "EUR",
+    "image": "products/daily-tote.svg",
+    "material": {
+      "en": "Cotton canvas",
+      "it": "Tela di cotone"
+    },
+    "dimensions": "36 × 12 × 40 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "studio-headphones",
+    "slug": "studio-headphones",
+    "name": {
+      "en": "Studio headphones",
+      "it": "Cuffie Studio"
+    },
+    "description": {
+      "en": "Studio headphones, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Cuffie Studio, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "technology",
+    "price": 8900,
+    "currency": "EUR",
+    "image": "products/studio-headphones.svg",
+    "material": {
+      "en": "ABS and textile",
+      "it": "ABS e tessuto"
+    },
+    "dimensions": "18 × 8 × 20 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "stone-mug",
+    "slug": "stone-mug",
+    "name": {
+      "en": "Stone coffee mug",
+      "it": "Tazza Stone"
+    },
+    "description": {
+      "en": "Stone coffee mug, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Tazza Stone, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "home",
+    "price": 1800,
+    "currency": "EUR",
+    "image": "products/stone-mug.svg",
+    "material": {
+      "en": "Glazed stoneware",
+      "it": "Grès smaltato"
+    },
+    "dimensions": "8 × 8 × 10 cm · 300 ml",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "desk-tray",
+    "slug": "desk-tray",
+    "name": {
+      "en": "Form desk tray",
+      "it": "Vassoio da scrivania Form"
+    },
+    "description": {
+      "en": "Form desk tray, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Vassoio da scrivania Form, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "desk",
+    "price": 2400,
+    "currency": "EUR",
+    "image": "products/desk-tray.svg",
+    "material": {
+      "en": "Solid ash",
+      "it": "Frassino massello"
+    },
+    "dimensions": "24 × 14 × 2 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "thermal-bottle",
+    "slug": "thermal-bottle",
+    "name": {
+      "en": "Everyday thermal bottle",
+      "it": "Borraccia termica Everyday"
+    },
+    "description": {
+      "en": "Everyday thermal bottle, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Borraccia termica Everyday, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "accessories",
+    "price": 2900,
+    "currency": "EUR",
+    "image": "products/thermal-bottle.svg",
+    "material": {
+      "en": "Stainless steel",
+      "it": "Acciaio inossidabile"
+    },
+    "dimensions": "7 × 7 × 25 cm · 500 ml",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "compact-speaker",
+    "slug": "compact-speaker",
+    "name": {
+      "en": "Compact speaker",
+      "it": "Altoparlante Compact"
+    },
+    "description": {
+      "en": "Compact speaker, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Altoparlante Compact, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "technology",
+    "price": 4900,
+    "currency": "EUR",
+    "image": "products/compact-speaker.svg",
+    "material": {
+      "en": "Aluminium and textile",
+      "it": "Alluminio e tessuto"
+    },
+    "dimensions": "8 × 8 × 14 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "linen-cushion",
+    "slug": "linen-cushion",
+    "name": {
+      "en": "Linen cushion",
+      "it": "Cuscino in lino"
+    },
+    "description": {
+      "en": "Linen cushion, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Cuscino in lino, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "home",
+    "price": 3900,
+    "currency": "EUR",
+    "image": "products/linen-cushion.svg",
+    "material": {
+      "en": "Linen blend",
+      "it": "Misto lino"
+    },
+    "dimensions": "45 × 45 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "weekly-notebook",
+    "slug": "weekly-notebook",
+    "name": {
+      "en": "Weekly notebook",
+      "it": "Quaderno Weekly"
+    },
+    "description": {
+      "en": "Weekly notebook, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Quaderno Weekly, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "desk",
+    "price": 1600,
+    "currency": "EUR",
+    "image": "products/weekly-notebook.svg",
+    "material": {
+      "en": "Paper and cloth",
+      "it": "Carta e tessuto"
+    },
+    "dimensions": "14 × 21 cm · 160 pages / pagine",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "analog-clock",
+    "slug": "analog-clock",
+    "name": {
+      "en": "Quiet analog clock",
+      "it": "Orologio analogico Quiet"
+    },
+    "description": {
+      "en": "Quiet analog clock, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Orologio analogico Quiet, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "home",
+    "price": 4500,
+    "currency": "EUR",
+    "image": "products/analog-clock.svg",
+    "material": {
+      "en": "Oak and glass",
+      "it": "Rovere e vetro"
+    },
+    "dimensions": "22 × 22 × 4 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 0
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "phone-stand",
+    "slug": "phone-stand",
+    "name": {
+      "en": "Balance phone stand",
+      "it": "Supporto telefono Balance"
+    },
+    "description": {
+      "en": "Balance phone stand, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Supporto telefono Balance, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "technology",
+    "price": 2200,
+    "currency": "EUR",
+    "image": "products/phone-stand.svg",
+    "material": {
+      "en": "Anodised aluminium",
+      "it": "Alluminio anodizzato"
+    },
+    "dimensions": "8 × 10 × 12 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "zip-pouch",
+    "slug": "zip-pouch",
+    "name": {
+      "en": "Everyday zip pouch",
+      "it": "Pochette Everyday"
+    },
+    "description": {
+      "en": "Everyday zip pouch, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Pochette Everyday, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "accessories",
+    "price": 1900,
+    "currency": "EUR",
+    "image": "products/zip-pouch.svg",
+    "material": {
+      "en": "Cotton canvas",
+      "it": "Tela di cotone"
+    },
+    "dimensions": "22 × 6 × 14 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "pen-cup",
+    "slug": "pen-cup",
+    "name": {
+      "en": "Column pen cup",
+      "it": "Portapenne Column"
+    },
+    "description": {
+      "en": "Column pen cup, with a balanced silhouette and a tactile finish. A considered detail for your everyday spaces.",
+      "it": "Portapenne Column, dalle forme equilibrate e dalla finitura materica. Un dettaglio curato per i tuoi spazi quotidiani."
+    },
+    "category": "desk",
+    "price": 2000,
+    "currency": "EUR",
+    "image": "products/pen-cup.svg",
+    "material": {
+      "en": "Glazed stoneware",
+      "it": "Grès smaltato"
+    },
+    "dimensions": "8 × 8 × 11 cm",
+    "features": {
+      "en": "Illustrated demo item. Specifications and availability are fictional.",
+      "it": "Articolo dimostrativo illustrato. Specifiche e disponibilità sono fittizie."
+    },
+    "variants": [
+      {
+        "id": "natural",
+        "name": {
+          "en": "Natural",
+          "it": "Naturale"
+        },
+        "stock": 6
+      },
+      {
+        "id": "forest",
+        "name": {
+          "en": "Forest",
+          "it": "Foresta"
+        },
+        "stock": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+import type { Language } from "./domain";
+export const translations = {
+  Home: "Home",
+  Shop: "Negozio",
+  Wishlist: "Preferiti",
+  Cart: "Carrello",
+  Search: "Cerca",
+  Language: "Lingua",
+  "Search the collection": "Cerca nella collezione",
+  "Everyday Essentials": "Everyday Essentials",
+  "Considered objects. Everyday rituals.":
+    "Oggetti curati. Rituali quotidiani.",
+  "Good things, quietly made.": "Belle cose, con semplicità.",
+  "A collection of useful, tactile objects for the places you call your own.":
+    "Una collezione di oggetti utili e materici per gli spazi che senti tuoi.",
+  "Explore the collection": "Esplora la collezione",
+  "Shop the edit": "Scopri la selezione",
+  "Objects for a slower everyday.": "Oggetti per una quotidianità più lenta.",
+  "The everyday edit": "La selezione quotidiana",
+  "Small details. Lasting presence.":
+    "Piccoli dettagli. Una presenza duratura.",
+  "View all": "Vedi tutto",
+  home: "Casa",
+  desk: "Scrivania",
+  technology: "Tecnologia",
+  accessories: "Accessori",
+  all: "Tutto",
+  Collection: "Collezione",
+  "Demo store — no real purchases or payments.":
+    "Negozio demo — nessun acquisto o pagamento reale.",
+  "Illustrated objects, thoughtful spaces.":
+    "Oggetti illustrati, spazi curati.",
+  "All products": "Tutti i prodotti",
+  "Maximum price (€)": "Prezzo massimo (€)",
+  "Available only": "Solo disponibili",
+  Sort: "Ordina",
+  Featured: "In evidenza",
+  "Price: low to high": "Prezzo crescente",
+  "Price: high to low": "Prezzo decrescente",
+  Name: "Nome",
+  Reset: "Azzera",
+  results: "risultati",
+  "No products match your filters.": "Nessun prodotto corrisponde ai filtri.",
+  "Add to cart": "Aggiungi al carrello",
+  "Added to cart": "Aggiunto al carrello",
+  "Demo stock limit reached": "Limite disponibilità demo raggiunto",
+  "Unavailable in this demo": "Non disponibile nella demo",
+  Variant: "Variante",
+  Quantity: "Quantità",
+  "Demo availability": "Disponibilità demo",
+  Material: "Materiale",
+  Dimensions: "Dimensioni",
+  Details: "Dettagli",
+  "Related objects": "Oggetti correlati",
+  "Product not found": "Prodotto non trovato",
+  "Continue shopping": "Continua gli acquisti",
+  Remove: "Rimuovi",
+  "Clear cart": "Svuota carrello",
+  Subtotal: "Subtotale",
+  Shipping: "Spedizione",
+  Total: "Totale",
+  "Proceed to demo checkout": "Vai al checkout demo",
+  "Your cart is empty": "Il carrello è vuoto",
+  "Your wishlist is empty": "La lista dei preferiti è vuota",
+  "Save object": "Salva oggetto",
+  "Remove saved object": "Rimuovi oggetto salvato",
+  Saved: "Salvato",
+  Removed: "Rimosso",
+  "Storage unavailable. Changes remain in this session only.":
+    "Memoria non disponibile. Le modifiche restano solo nella sessione.",
+  "Demo checkout": "Checkout demo",
+  "Shipping details": "Dati di spedizione",
+  Delivery: "Consegna",
+  Review: "Riepilogo",
+  "Full name": "Nome completo",
+  Email: "Email",
+  Address: "Indirizzo",
+  City: "Città",
+  Postcode: "CAP",
+  Country: "Paese",
+  Italy: "Italia",
+  "Fill with sample data": "Compila con dati di esempio",
+  Back: "Indietro",
+  Continue: "Continua",
+  "Standard delivery": "Spedizione standard",
+  "Express delivery": "Spedizione espressa",
+  "Standard: €4.90, free from €100. Express: €9.00. Demo delivery in Italy only.":
+    "Standard: 4,90 €, gratuita da 100 €. Espressa: 9,00 €. Consegna demo solo in Italia.",
+  "Prices include illustrative taxes. No additional tax calculation.":
+    "I prezzi includono imposte illustrative. Nessun ulteriore calcolo fiscale.",
+  "Confirm demo order": "Conferma ordine demo",
+  "Your demo order is ready.": "Il tuo ordine demo è pronto.",
+  "No payment was taken. No shipment or email will be sent. Nothing is registered on a server.":
+    "Nessun pagamento. Non saranno inviati prodotti o email. Nulla è registrato su un server.",
+  "Print summary": "Stampa riepilogo",
+  "No order snapshot available after reload.":
+    "Riepilogo ordine non disponibile dopo il ricaricamento.",
+  "Enter your full name": "Inserisci nome e cognome",
+  "Enter a valid email": "Inserisci un’email valida",
+  "Enter a street address": "Inserisci un indirizzo",
+  "Enter a city": "Inserisci una città",
+  "Enter a five-digit Italian postcode":
+    "Inserisci un CAP italiano di cinque cifre",
+  "Demo delivery is available only in Italy":
+    "La consegna demo è disponibile solo in Italia",
+  "Use fictional details. They stay in memory and are never sent or saved.":
+    "Usa dati fittizi. Restano in memoria e non vengono inviati o salvati.",
+  "A project by Federico Santorsola": "Progetto di Federico Santorsola",
+  "Skip to content": "Vai al contenuto",
+  Natural: "Naturale",
+  Forest: "Foresta",
+  "Shipping calculated at demo checkout":
+    "Spedizione calcolata al checkout demo",
+  Category: "Categoria",
+} as const;
+export type Key = keyof typeof translations;
+export const translator = (lang: Language) => (key: Key) =>
+  lang === "it" ? translations[key] : key;
+export const money = (cents: number, lang: Language) =>
+  new Intl.NumberFormat(lang === "en" ? "en-GB" : "it-IT", {
+    style: "currency",
+    currency: "EUR",
+  }).format(cents / 100);
